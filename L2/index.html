@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-tw" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="Author" content="Leo" />
+<title>Leo's </title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!--owl carousel-->
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+</head>
+
+
+<body>
+
+<header class="header">
+	<div class="container clearfix">
+    <div class="logo pull-left text-center">
+      <h1><a href="#" title="好想工作室">
+        <img src="img/logo.png" alt="logo">好想工作室<br>Goodideas-Studio
+      </a></h1>
+    </div>
+    <div class="menu pull-right">
+      <button type="button" class="navbar-toggle visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <nav class="navbar-collapse collapse" aria-expanded="false">
+        <ul class="list-inline">
+          <li><h2><a href="#" title="HOME">HOME</a></h2></li>
+          <li><h2><a href="#" title="ABOUT">ABOUT</a></h2></li>
+          <li><h2><a href="#" title="SERVICE">SERVICE</a></h2></li>
+          <li><h2><a href="#" title="PHOTO">PHOTO</a></h2></li>
+          <li><h2><a href="#" title="PRICE">PRICE</a></h2></li>
+          <li><h2><a href="#" title="CONTACT">CONTACT</a></h2></li>
+        </ul>
+      </nav>
+    </div>
+	</div>
+</header>
+
+
+<section class="slide">
+  <div id="owl" class="owl-carousel owl-theme">
+
+    <div class="item"><img src="img/banner1.jpg" alt="banner1"></div>
+    <div class="item"><img src="img/banner2.jpg" alt="banner2"></div>
+    <div class="item"><img src="img/banner3.jpg" alt="banner3"></div>
+
+  </div>
+  <div class="block">
+    <h3>好想工作室</h3>
+    <a href="#">visit now</a>
+  </div>
+</section>
+
+<section class="intro">
+  <div class="container">
+    <h3>這裡有...</h3>
+    <hr>
+    <p>正因為我們自己想要，這樣才能夠呈現你的需要</p>
+    <div class="row">
+      <div class="col-sm-4"><img src="img/1.jpg" alt="img1"></div>
+      <div class="col-sm-4"><img src="img/2.jpg" alt="img2"></div>
+      <div class="col-sm-4"><img src="img/3.jpg" alt="img3"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h4>STAY CONNECTED</h4>
+        <ul class="list-inline">
+          <li><a href="#"><img src="img/icon_fb.png" alt="facebook"></a></li>
+          <li><a href="#"><img src="img/icon_line.png" alt="line"></a></li>
+          <li><a href="#"><img src="img/icon_youtube.png" alt="youtube"></a></li>
+          <li><a href="#"><img src="img/icon_b.png" alt="blog"></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h4>be our friend</h4>
+        <form action="#">
+          <input type="text" placeholder="Email">
+          <button class="pull-right" type="submit">update me</button>
+        </form>
+      </div>
+      <div class="col-sm-4">
+        <ul class="contact">
+          <h4>need assistance?</h4>
+          <li><a href="tel:123 456 7890" title="">123-456-7890</a></li>
+          <li><a href="mailto:info@mysite.com" title="">info@mysite.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy;2023 by PRETTY GAL. Proudly created with Wix.com
+    </div>
+	</div>
+</footer>
+
+</body>
+</html>
+
+
+<!-- owl carousel js -->
+<script>
+  $(document).ready(function() {
+
+    $("#owl").owlCarousel({
+
+        singleItem : true,
+
+        //Basic Speeds
+        slideSpeed : 1000,
+        paginationSpeed : 1000,
+        rewindSpeed : 1000,
+
+        //Autoplay
+        autoPlay : true,
+        stopOnHover : true,
+
+        // Navigation
+        navigation : true,
+        navigationText : ["往左","往右"],
+        rewindNav : true,
+        scrollPerPage : false,
+
+        // Responsive
+        responsive: true,
+        responsiveRefreshRate : 200,
+        responsiveBaseWidth: window,
+
+        // CSS Styles
+        baseClass : "owl-carousel",
+        theme : "owl-theme",
+
+    });
+
+  });
+</script>
